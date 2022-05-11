@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String text = String.valueOf(editText_word.getText());
-                Text_TheWall.setText(text+"f");
+                Text_TheWall.setText(text);
             }
         });
     }
